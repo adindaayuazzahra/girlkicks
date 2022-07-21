@@ -16,7 +16,6 @@ class SubtitleWithMore extends StatelessWidget {
       child: Row(
         children: <Widget>[
           SizedBox(
-            //color: primaryColor,
             height: 25,
             child: Stack(
               children: <Widget>[
@@ -47,7 +46,6 @@ class SubtitleWithMore extends StatelessWidget {
             child: Container(
               padding: const EdgeInsets.only(top: 5),
               alignment: Alignment.center,
-              //color: primaryColor,
               height: 20,
               child: Row(
                 children: [

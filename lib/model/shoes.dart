@@ -21,24 +21,7 @@ class Shoes {
     required this.color,
     required this.imageGallery,
   });
-
-  // Shoes.fromJson(Map<String, dynamic> shoes) {
-  //   id = shoes['id'];
-  //   name = shoes['name'];
-  //   price = shoes['price'];
-  //   brand = shoes['brand'];
-  //   imgCover = shoes['imgCover'];
-  // }
 }
-
-// List<Shoes> parseShoes(json) {
-//   if (json == null) {
-//     return [];
-//   }
-
-//   final List parsed = jsonDecode(json);
-//   return parsed.map((dynamic json) => Shoes.fromJson(json)).toList();
-// }
 
 var newarrivals = [
   Shoes(

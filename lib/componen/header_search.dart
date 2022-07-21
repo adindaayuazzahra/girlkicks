@@ -61,7 +61,7 @@ class HeaderSearch extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Icon(Icons.search),
+                  const Icon(Icons.search),
                 ],
               ),
             ),
