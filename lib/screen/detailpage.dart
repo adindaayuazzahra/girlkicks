@@ -282,7 +282,7 @@ class _DetailPageState extends State<DetailPage> {
                                           EdgeInsets.fromLTRB(20, 0, 20, 20),
                                       //height: size.height * 0.4,
                                       child: Text(
-                                        "\"The dunk\" gets Dunked. Celebrating the 20th anniversary of Lisa Leslie's magical on-court moment, a hoops original brings the heat to honour the first woman to dunk in a pro game. Team colours and an embroidered 9 on the heel pay tribute to the championship-winning athleticism that propelled Lisa to be a 3x MVP. An Emerald Green Swoosh logo sends a bolt of energy up the side of the shoe, while colour-matched laces and stitching finish the look.",
+                                        widget.shoesArrivals.description,
                                         textAlign: TextAlign.justify,
                                       ),
                                     ),
@@ -655,7 +655,7 @@ class _DetailPageFeaturedState extends State<DetailPageFeatured> {
                                           EdgeInsets.fromLTRB(20, 0, 20, 20),
                                       //height: size.height * 0.4,
                                       child: Text(
-                                        "\"The dunk\" gets Dunked. Celebrating the 20th anniversary of Lisa Leslie's magical on-court moment, a hoops original brings the heat to honour the first woman to dunk in a pro game. Team colours and an embroidered 9 on the heel pay tribute to the championship-winning athleticism that propelled Lisa to be a 3x MVP. An Emerald Green Swoosh logo sends a bolt of energy up the side of the shoe, while colour-matched laces and stitching finish the look.",
+                                        widget.featured.description,
                                         textAlign: TextAlign.justify,
                                       ),
                                     ),
