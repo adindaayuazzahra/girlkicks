@@ -79,7 +79,7 @@ var newarrivals = [
 var featureds = [
   Shoes(
     id: 'f01',
-    name: 'Nike React Infinity Run Flyknit 3 Premium',
+    name: 'Nike React Infinity Run Flyknit 3',
     price: '\$350',
     brand: 'By Nike',
     imgCover: 'assets/images/React.png',
