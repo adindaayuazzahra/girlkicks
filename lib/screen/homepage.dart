@@ -5,6 +5,8 @@ import 'package:girlkicks/componen/new_arrivals.dart';
 import 'package:girlkicks/componen/subtitlewithmore.dart';
 import 'package:girlkicks/model/shoes.dart';
 import 'package:girlkicks/screen/detailpage.dart';
+import 'package:girlkicks/screen/featured_page.dart';
+import 'package:girlkicks/screen/newarrivals_page.dart';
 import 'package:girlkicks/styles.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -42,12 +44,20 @@ class HomePage extends StatelessWidget {
             const SizedBox(height: 30),
             SubtitleWithMore(
               text: "New Arrivals",
-              press: () {},
+              press: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) {
+                  return NewarrivalsPage();
+                }));
+              },
             ),
             const NewArrivalsItems(),
             SubtitleWithMore(
               text: "Featured",
-              press: () {},
+              press: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) {
+                  return FeaturedPage();
+                }));
+              },
             ),
             const SizedBox(height: 15),
             const FeaturedItems(),

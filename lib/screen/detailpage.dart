@@ -27,7 +27,6 @@ class _DetailPageState extends State<DetailPage> {
       extendBodyBehindAppBar: true,
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: Colors.transparent,
         leading: IconButton(
           onPressed: () {
             Navigator.pop(context);
@@ -398,7 +397,6 @@ class _DetailPageFeaturedState extends State<DetailPageFeatured> {
       extendBodyBehindAppBar: true,
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: Colors.transparent,
         leading: IconButton(
           onPressed: () {
             Navigator.pop(context);
@@ -406,15 +404,7 @@ class _DetailPageFeaturedState extends State<DetailPageFeatured> {
           icon: const Icon(Icons.arrow_back_rounded),
           color: Colors.black,
         ),
-        actions: [
-          IconButton(
-            onPressed: () {
-              // Navigator.pop(context);
-            },
-            icon: const Icon(Icons.favorite_border),
-            color: Colors.black,
-          )
-        ],
+        actions: [FavoriteButton()],
       ),
       body: Column(
         children: [
