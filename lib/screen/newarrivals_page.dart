@@ -59,7 +59,7 @@ class NewarrivalsPage extends StatelessWidget {
                       //   ),
                       // ],
                     ),
-                    height: 95,
+                    height: 97,
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
@@ -101,12 +101,13 @@ class NewarrivalsPage extends StatelessWidget {
                             ),
                           ],
                         ),
+                        const SizedBox(width: 5),
                         //Spacer(),
                         Container(
                           height: double.infinity,
                           margin: const EdgeInsets.fromLTRB(0, 10, 0, 10),
                           padding: const EdgeInsets.all(15),
-                          width: 130,
+                          width: 120,
                           decoration: BoxDecoration(
                             color: primaryColor,
                             borderRadius: BorderRadius.circular(13),

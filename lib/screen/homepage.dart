@@ -101,8 +101,8 @@ class HomePage extends StatelessWidget {
                 icon: Icon(Icons.favorite_border), label: "wishlist"),
             BottomNavigationBarItem(
                 icon: Icon(Icons.receipt_long_rounded), label: "Riwayat"),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.person_rounded), label: "akun"),
+            // BottomNavigationBarItem(
+            //     icon: Icon(Icons.person_rounded), label: "akun"),
           ],
         ),
       ),
