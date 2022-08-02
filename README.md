@@ -1,16 +1,15 @@
-# girlkicks
+# Girl Kicks - Flutter UI
 
-A new Flutter project.
+**Packages we are using:**
 
-## Getting Started
+- carousel_slider: [link](https://pub.dev/packages/carousel_slider)
+- simple_slider: [link](https://pub.dev/packages/simple_shadow)
+- google_fonts: [link](https://pub.dev/packages/google_fonts)
 
-This project is a starting point for a Flutter application.
+Nice clean shoes shopping online for women app UI using flutter, the Home page you will get search box than a horizontal list of recommended plants. At the bottom featured shoes list. On the detail page, there is an image of shoe details in the form of a carousel slider, there is a favorite button, there is a card containing shoe details, color choices, size options, and a buy button.
 
-A few resources to get you started if this is your first Flutter project:
+### Girl Kicks APP UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**UI Design By Adinda Azzahra**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![App UI](/banner.png)
